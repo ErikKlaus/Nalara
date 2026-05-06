@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "786210665746",
+    "project_id": "nalara-app-89fc6",
+    "storage_bucket": "nalara-app-89fc6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786210665746:android:1f1e6c0b5469c7f2872fcb",
+        "android_client_info": {
+          "package_name": "com.nalara.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786210665746-35k8jj4kcv326ha930kd8avn7k3evgvi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nalara.app",
+            "certificate_hash": "8f58c7d8267bd001d649042950b6a6e537cb3e44"
+          }
+        },
+        {
+          "client_id": "786210665746-gbkjl6llc4qn0hkha97rfh6os8cdvtgi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL0G5HqmPIkjPcVJVw6xagupztSVp5kfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786210665746-gbkjl6llc4qn0hkha97rfh6os8cdvtgi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

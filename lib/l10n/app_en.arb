@@ -1,0 +1,249 @@
+{
+  "@@locale": "en",
+  "appName": "Nalara",
+  "@appName": {
+    "description": "The name of the application"
+  },
+  "helloWorld": "Hello World!",
+  "@helloWorld": {
+    "description": "A greeting message"
+  },
+  "dashboard": "Dashboard",
+  "@dashboard": {
+    "description": "Title for the dashboard screen"
+  },
+  "remainingAnalysis": "{count} analysis remaining today",
+  "@remainingAnalysis": {
+    "description": "Message showing how many analysis requests are left",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "loadingLimit": "Loading limit...",
+  "@loadingLimit": {
+    "description": "Message shown while checking analysis limit"
+  },
+  "limitUnavailable": "Limit unavailable",
+  "@limitUnavailable": {
+    "description": "Message shown when limit cannot be loaded"
+  },
+  "newAnalysis": "New Analysis",
+  "@newAnalysis": {
+    "description": "Button text to start a new analysis"
+  },
+  "decisionHistory": "Decision History",
+  "@decisionHistory": {
+    "description": "Title for the decision history section"
+  },
+  "streak": "Streak",
+  "@streak": {
+    "description": "Label for the user streak"
+  },
+  "streakDays": "{count} consecutive days",
+  "@streakDays": {
+    "description": "Message showing streak days",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "career": "Career \ud83d\udcbc",
+  "@career": {
+    "description": "Category for career decisions"
+  },
+  "financial": "Financial \ud83d\udcb0",
+  "@financial": {
+    "description": "Category for financial decisions"
+  },
+  "emptyHistoryTitle": "No history yet",
+  "@emptyHistoryTitle": {
+    "description": "Title shown when history is empty"
+  },
+  "emptyHistoryMessage": "Start a new decision analysis to see your history here.",
+  "@emptyHistoryMessage": {
+    "description": "Message shown when history is empty encouraging user to start an analysis"
+  },
+  "continueWithGoogle": "Continue with Google",
+  "@continueWithGoogle": {
+    "description": "Primary Google sign-in CTA on the welcome screen"
+  },
+  "welcomeHeadline": "Think more clearly before making a big decision.",
+  "@welcomeHeadline": {
+    "description": "Main headline on the welcome screen"
+  },
+  "welcomeSubheadline": "Nalara helps you see risks, early signals, and preventive steps before a decision becomes costly.",
+  "@welcomeSubheadline": {
+    "description": "Short value explanation on the welcome screen"
+  },
+  "riskSimulationTitle": "Risk simulation",
+  "@riskSimulationTitle": {
+    "description": "Feature preview title for risk simulation"
+  },
+  "riskSimulationDescription": "Three realistic failure scenarios.",
+  "@riskSimulationDescription": {
+    "description": "Feature preview description for risk simulation"
+  },
+  "earlyIndicatorsTitle": "Early indicators",
+  "@earlyIndicatorsTitle": {
+    "description": "Feature preview title for early indicators"
+  },
+  "earlyIndicatorsDescription": "Signals worth watching early.",
+  "@earlyIndicatorsDescription": {
+    "description": "Feature preview description for early indicators"
+  },
+  "preventiveActionsTitle": "Preventive actions",
+  "@preventiveActionsTitle": {
+    "description": "Feature preview title for preventive actions"
+  },
+  "preventiveActionsDescription": "Practical next steps with clear timing.",
+  "@preventiveActionsDescription": {
+    "description": "Feature preview description for preventive actions"
+  },
+  "draft": "Draft",
+  "@draft": {
+    "description": "Draft status and navigation label"
+  },
+  "decisionIntelligence": "Decision Intelligence",
+  "@decisionIntelligence": {
+    "description": "Product category chip on dashboard"
+  },
+  "homeHeroHeadline": "See the risk before a decision gets costly.",
+  "@homeHeroHeadline": {
+    "description": "Dashboard hero headline"
+  },
+  "homeHeroDescription": "Nalara structures a pre-mortem: failure scenarios, root causes, early indicators, and preventive actions you can take.",
+  "@homeHeroDescription": {
+    "description": "Dashboard hero description"
+  },
+  "analysisUsed": "{used}/{limit} used",
+  "@analysisUsed": {
+    "description": "Usage count text",
+    "placeholders": {
+      "used": {
+        "type": "int"
+      },
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "decisionPromptTitle": "Start with the decision that feels most unresolved",
+  "@decisionPromptTitle": {
+    "description": "Dashboard shortcut section title"
+  },
+  "careerShortcutMessage": "Resigning, changing teams, new offers.",
+  "@careerShortcutMessage": {
+    "description": "Career shortcut description"
+  },
+  "financialShortcutMessage": "Mortgage, major purchases, installments.",
+  "@financialShortcutMessage": {
+    "description": "Financial shortcut description"
+  },
+  "draftShortcutTitle": "Continue Draft",
+  "@draftShortcutTitle": {
+    "description": "Draft shortcut title"
+  },
+  "draftShortcutMessage": "Offline drafts are saved automatically.",
+  "@draftShortcutMessage": {
+    "description": "Draft shortcut description"
+  },
+  "reviewReminderTitle": "Review important decisions",
+  "@reviewReminderTitle": {
+    "description": "Dashboard reminder banner title"
+  },
+  "reviewReminderMessage": "D+7 and D+30 reminders will appear here after a decision is saved.",
+  "@reviewReminderMessage": {
+    "description": "Dashboard reminder banner message"
+  },
+  "limitUnavailableChip": "Limit unavailable",
+  "@limitUnavailableChip": {
+    "description": "Limit unavailable chip text"
+  },
+  "analysisTitle": "Decision Analysis",
+  "analysisIntro": "Provide enough context, then let Nalara surface the risks you might miss.",
+  "decisionContextTitle": "Decision in focus",
+  "decisionContextHint": "Example: I am considering moving to a startup with lower pay but more learning opportunities...",
+  "analysisContextEnough": "Context is sufficient for an initial analysis.",
+  "analysisContextMinimum": "Use at least 10 words to avoid shallow analysis.",
+  "wordCountLabel": "{count} words",
+  "@wordCountLabel": {
+    "description": "Word count label",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "charactersLeft": "{count} characters",
+  "@charactersLeft": {
+    "description": "Characters left label",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "categoryLabel": "Category",
+  "analyzeAction": "Analyze",
+  "analysisLimitReached": "Daily limit reached. Try again after reset.",
+  "analysisLoadingMessage": "Analyzing your decision...",
+  "analysisLoadingDescription": "Nalara is assembling failure scenarios, early indicators, and the most practical preventive actions.",
+  "analysisResultTitle": "Analysis Result",
+  "analysisRemainingToday": "Remaining today",
+  "analysisRemainingChip": "{remaining}/{limit} remaining today",
+  "@analysisRemainingChip": {
+    "description": "Remaining usage chip",
+    "placeholders": {
+      "remaining": {
+        "type": "int"
+      },
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "analysisRootCauseLabel": "Root cause",
+  "confidenceHigh": "High confidence",
+  "confidenceMedium": "Medium confidence",
+  "confidenceLow": "Low confidence",
+  "likelihoodHigh": "High",
+  "likelihoodMedium": "Medium",
+  "likelihoodLow": "Low",
+  "analysisCompleteTitle": "Pre-mortem complete",
+  "analysisCompleteDescription": "Use this as a risk map, not a final verdict. Focus your energy on preventive actions.",
+  "analysisScenarioTitle": "Failure Scenarios",
+  "analysisFixInput": "Edit Input",
+  "analysisSaveResult": "Save",
+  "analysisSavedSnackbar": "Analysis is ready to be saved to history.",
+  "analysisLowConfidence": "This analysis has low confidence because the provided information is limited.",
+  "filterAll": "All",
+  "filterDraft": "Draft",
+  "filterAnalyzed": "Analyzed",
+  "filterDone": "Completed",
+  "emptyDraftTitle": "No drafts yet",
+  "emptyDraftMessage": "Draft decisions will show up here once available.",
+  "emptyFilteredTitle": "No items yet",
+  "emptyFilteredMessage": "Try another filter to view your history.",
+  "historyLoading": "Loading decision history...",
+  "languageLabel": "Language",
+  "languageSelectionDescription": "Use the language that feels most comfortable for clear thinking.",
+  "languageIndonesianSubtitle": "Recommended for local decision context.",
+  "languageEnglishSubtitle": "Use Nalara in English.",
+  "languageOptionIndonesian": "Indonesian",
+  "languageOptionEnglish": "English",
+  "languageChangedMessage": "Language changed to {language}",
+  "@languageChangedMessage": {
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "logout": "Logout",
+  "logoutTitle": "Logout",
+  "logoutMessage": "Are you sure you want to logout?",
+  "cancel": "Cancel"
+}

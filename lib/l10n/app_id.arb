@@ -1,0 +1,249 @@
+{
+  "@@locale": "id",
+  "appName": "Nalara",
+  "@appName": {
+    "description": "The name of the application"
+  },
+  "helloWorld": "Halo Dunia!",
+  "@helloWorld": {
+    "description": "A greeting message"
+  },
+  "dashboard": "Dashboard",
+  "@dashboard": {
+    "description": "Title for the dashboard screen"
+  },
+  "remainingAnalysis": "Tersisa {count} analisis hari ini",
+  "@remainingAnalysis": {
+    "description": "Message showing how many analysis requests are left",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "loadingLimit": "Memuat limit...",
+  "@loadingLimit": {
+    "description": "Message shown while checking analysis limit"
+  },
+  "limitUnavailable": "Limit tidak tersedia",
+  "@limitUnavailable": {
+    "description": "Message shown when limit cannot be loaded"
+  },
+  "newAnalysis": "Analisis Baru",
+  "@newAnalysis": {
+    "description": "Button text to start a new analysis"
+  },
+  "decisionHistory": "Histori Keputusan",
+  "@decisionHistory": {
+    "description": "Title for the decision history section"
+  },
+  "streak": "Streak",
+  "@streak": {
+    "description": "Label for the user streak"
+  },
+  "streakDays": "{count} hari berturut-turut",
+  "@streakDays": {
+    "description": "Message showing streak days",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "career": "Karier \ud83d\udcbc",
+  "@career": {
+    "description": "Category for career decisions"
+  },
+  "financial": "Finansial \ud83d\udcb0",
+  "@financial": {
+    "description": "Category for financial decisions"
+  },
+  "emptyHistoryTitle": "Belum ada histori",
+  "@emptyHistoryTitle": {
+    "description": "Title shown when history is empty"
+  },
+  "emptyHistoryMessage": "Mulai analisis keputusan untuk melihat histori di sini.",
+  "@emptyHistoryMessage": {
+    "description": "Message shown when history is empty encouraging user to start an analysis"
+  },
+  "continueWithGoogle": "Lanjut dengan Google",
+  "@continueWithGoogle": {
+    "description": "Primary Google sign-in CTA on the welcome screen"
+  },
+  "welcomeHeadline": "Berpikir lebih jernih sebelum mengambil keputusan besar.",
+  "@welcomeHeadline": {
+    "description": "Main headline on the welcome screen"
+  },
+  "welcomeSubheadline": "Nalara membantu kamu melihat risiko, tanda awal, dan langkah pencegahan sebelum keputusan terasa mahal.",
+  "@welcomeSubheadline": {
+    "description": "Short value explanation on the welcome screen"
+  },
+  "riskSimulationTitle": "Simulasi risiko",
+  "@riskSimulationTitle": {
+    "description": "Feature preview title for risk simulation"
+  },
+  "riskSimulationDescription": "Tiga skenario gagal yang realistis.",
+  "@riskSimulationDescription": {
+    "description": "Feature preview description for risk simulation"
+  },
+  "earlyIndicatorsTitle": "Indikator dini",
+  "@earlyIndicatorsTitle": {
+    "description": "Feature preview title for early indicators"
+  },
+  "earlyIndicatorsDescription": "Sinyal awal yang perlu kamu pantau.",
+  "@earlyIndicatorsDescription": {
+    "description": "Feature preview description for early indicators"
+  },
+  "preventiveActionsTitle": "Tindakan preventif",
+  "@preventiveActionsTitle": {
+    "description": "Feature preview title for preventive actions"
+  },
+  "preventiveActionsDescription": "Langkah praktis dengan timing jelas.",
+  "@preventiveActionsDescription": {
+    "description": "Feature preview description for preventive actions"
+  },
+  "draft": "Draft",
+  "@draft": {
+    "description": "Draft status and navigation label"
+  },
+  "decisionIntelligence": "Decision Intelligence",
+  "@decisionIntelligence": {
+    "description": "Product category chip on dashboard"
+  },
+  "homeHeroHeadline": "Lihat risiko sebelum keputusan terasa mahal.",
+  "@homeHeroHeadline": {
+    "description": "Dashboard hero headline"
+  },
+  "homeHeroDescription": "Nalara menyusun pre-mortem: skenario gagal, penyebab, indikator dini, dan tindakan pencegahan yang bisa langsung kamu lakukan.",
+  "@homeHeroDescription": {
+    "description": "Dashboard hero description"
+  },
+  "analysisUsed": "{used}/{limit} terpakai",
+  "@analysisUsed": {
+    "description": "Usage count text",
+    "placeholders": {
+      "used": {
+        "type": "int"
+      },
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "decisionPromptTitle": "Mulai dari keputusan yang paling mengganjal",
+  "@decisionPromptTitle": {
+    "description": "Dashboard shortcut section title"
+  },
+  "careerShortcutMessage": "Resign, pindah tim, tawaran baru.",
+  "@careerShortcutMessage": {
+    "description": "Career shortcut description"
+  },
+  "financialShortcutMessage": "KPR, investasi besar, cicilan.",
+  "@financialShortcutMessage": {
+    "description": "Financial shortcut description"
+  },
+  "draftShortcutTitle": "Lanjutkan Draft",
+  "@draftShortcutTitle": {
+    "description": "Draft shortcut title"
+  },
+  "draftShortcutMessage": "Draft offline tersimpan otomatis.",
+  "@draftShortcutMessage": {
+    "description": "Draft shortcut description"
+  },
+  "reviewReminderTitle": "Review keputusan penting",
+  "@reviewReminderTitle": {
+    "description": "Dashboard reminder banner title"
+  },
+  "reviewReminderMessage": "Reminder D+7 dan D+30 akan muncul di sini setelah keputusan disimpan.",
+  "@reviewReminderMessage": {
+    "description": "Dashboard reminder banner message"
+  },
+  "limitUnavailableChip": "Limit tidak tersedia",
+  "@limitUnavailableChip": {
+    "description": "Limit unavailable chip text"
+  },
+  "analysisTitle": "Analisis Keputusan",
+  "analysisIntro": "Beri konteks yang cukup, lalu biarkan Nalara mencari risiko yang mungkin terlewat.",
+  "decisionContextTitle": "Keputusan yang dipertimbangkan",
+  "decisionContextHint": "Contoh: Saya sedang mempertimbangkan pindah kerja ke startup dengan gaji lebih rendah tapi peluang belajar lebih besar...",
+  "analysisContextEnough": "Konteks cukup untuk analisis awal.",
+  "analysisContextMinimum": "Minimal 10 kata agar analisis tidak terlalu dangkal.",
+  "wordCountLabel": "{count} kata",
+  "@wordCountLabel": {
+    "description": "Word count label",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "charactersLeft": "{count} karakter",
+  "@charactersLeft": {
+    "description": "Characters left label",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "categoryLabel": "Kategori",
+  "analyzeAction": "Analisis",
+  "analysisLimitReached": "Limit harian tercapai. Coba lagi setelah reset harian.",
+  "analysisLoadingMessage": "Menganalisis keputusan...",
+  "analysisLoadingDescription": "Nalara sedang menyusun skenario gagal, indikator dini, dan tindakan pencegahan yang paling masuk akal.",
+  "analysisResultTitle": "Hasil Analisis",
+  "analysisRemainingToday": "Sisa hari ini",
+  "analysisRemainingChip": "Sisa {remaining}/{limit} hari ini",
+  "@analysisRemainingChip": {
+    "description": "Remaining usage chip",
+    "placeholders": {
+      "remaining": {
+        "type": "int"
+      },
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "analysisRootCauseLabel": "Penyebab utama",
+  "confidenceHigh": "Confidence Tinggi",
+  "confidenceMedium": "Confidence Sedang",
+  "confidenceLow": "Confidence Rendah",
+  "likelihoodHigh": "Tinggi",
+  "likelihoodMedium": "Sedang",
+  "likelihoodLow": "Rendah",
+  "analysisCompleteTitle": "Pre-mortem selesai",
+  "analysisCompleteDescription": "Gunakan hasil ini sebagai peta risiko, bukan vonis akhir. Fokuskan energi ke tindakan pencegahan.",
+  "analysisScenarioTitle": "Skenario Kegagalan",
+  "analysisFixInput": "Perbaiki Input",
+  "analysisSaveResult": "Simpan",
+  "analysisSavedSnackbar": "Analisis siap disimpan ke histori.",
+  "analysisLowConfidence": "Analisis ini memiliki confidence rendah karena informasi yang diberikan masih terbatas.",
+  "filterAll": "Semua",
+  "filterDraft": "Draft",
+  "filterAnalyzed": "Dianalisis",
+  "filterDone": "Selesai",
+  "emptyDraftTitle": "Belum ada draft",
+  "emptyDraftMessage": "Draft keputusan akan muncul di sini saat tersedia.",
+  "emptyFilteredTitle": "Belum ada item",
+  "emptyFilteredMessage": "Coba pilih filter lain untuk melihat histori.",
+  "historyLoading": "Memuat histori keputusan...",
+  "languageLabel": "Bahasa",
+  "languageSelectionDescription": "Gunakan bahasa yang paling nyaman untuk berpikir jernih.",
+  "languageIndonesianSubtitle": "Direkomendasikan untuk konteks keputusan lokal.",
+  "languageEnglishSubtitle": "Use Nalara in English.",
+  "languageOptionIndonesian": "Bahasa Indonesia",
+  "languageOptionEnglish": "English",
+  "languageChangedMessage": "Bahasa diubah ke {language}",
+  "@languageChangedMessage": {
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "logout": "Keluar",
+  "logoutTitle": "Keluar",
+  "logoutMessage": "Apakah Anda yakin ingin keluar?",
+  "cancel": "Batal"
+}
